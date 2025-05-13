@@ -93,7 +93,10 @@
         },
         {
           "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+          "files": [
+            "coffee-art.jpg",
+            "coffee-beans.jpg"
+          ]
         }
       ]
     },
@@ -128,7 +131,10 @@
         },
         {
           "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+          "files": [
+            "coffee-art.jpg",
+            "coffee-beans.jpg"
+          ]
         }
       ]
     },
@@ -163,7 +169,10 @@
         },
         {
           "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+          "files": [
+            "coffee-art.jpg",
+            "coffee-beans.jpg"
+          ]
         }
       ]
     },
@@ -198,7 +207,10 @@
         },
         {
           "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+          "files": [
+            "coffee-art.jpg",
+            "coffee-beans.jpg"
+          ]
         }
       ]
     },
@@ -233,9 +245,22 @@
         },
         {
           "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
+          "files": [
+            "coffee-art.jpg",
+            "coffee-beans.jpg"
+          ]
         }
       ]
+    }
+  ],
+  "solutions": [
+    {
+      "title":"testing",
+      "body": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec.",
+      "file": "coffee-art.jpg",
+      "cta":"https://googel.com"
+      
+      
     }
   ]
 }
