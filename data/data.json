@@ -262,5 +262,19 @@
       
       
     }
+  ],
+  "workspaceServices": [
+    {
+      "title":"Coworking",
+      "description": "Work from the best coworking spaces & cafes with a single membership.",
+       "features": [
+        "Daily, monthly or annual plans",
+        "WiFi, coffee, plugs & other perks",
+        "Solo and team memberships"
+      ],
+      "ctaText":"Learn more",
+      "ctaLink":"/cowork"
+
+    }
   ]
 }
