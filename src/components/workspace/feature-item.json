@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_workspace_feature_items",
+  "info": {
+    "displayName": "Feature Item",
+    "description": "Single feature text"
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
