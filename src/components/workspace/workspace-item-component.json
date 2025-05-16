@@ -4,9 +4,6 @@
     "displayName": "Workspace Item",
     "description": "Whole workspace item"
   },
-  "options": {
-    "draftAndPublish": true
-  },
   "attributes": {
     "title": {
       "type": "string",
@@ -23,11 +20,11 @@
     },
     "ctaText": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "ctaLink": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "image": {
       "type": "media",

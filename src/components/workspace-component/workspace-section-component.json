@@ -4,9 +4,6 @@
     "displayName": "Workspace Item",
     "description": "Whole workspace item"
   },
-  "options": {
-    "draftAndPublish": true
-  },
   "attributes": {
     "title": {
       "type": "string",

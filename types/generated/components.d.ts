@@ -69,9 +69,6 @@ export interface WorkspaceComponentWorkspaceSectionComponent
     description: 'Whole workspace item';
     displayName: 'Workspace Item';
   };
-  options: {
-    draftAndPublish: true;
-  };
   attributes: {
     bg_color: Schema.Attribute.String;
     cards: Schema.Attribute.Component<
@@ -103,12 +100,9 @@ export interface WorkspaceWorkspaceItemComponent
     description: 'Whole workspace item';
     displayName: 'Workspace Item';
   };
-  options: {
-    draftAndPublish: true;
-  };
   attributes: {
-    ctaLink: Schema.Attribute.String & Schema.Attribute.Required;
-    ctaText: Schema.Attribute.String & Schema.Attribute.Required;
+    ctaLink: Schema.Attribute.String;
+    ctaText: Schema.Attribute.String;
     description: Schema.Attribute.RichText & Schema.Attribute.Required;
     features: Schema.Attribute.Component<'workspace.feature-item', true>;
     image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
