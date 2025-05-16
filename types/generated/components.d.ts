@@ -71,7 +71,7 @@ export interface WorkspaceComponentWorkspaceSectionComponent
   };
   attributes: {
     bg_color: Schema.Attribute.String;
-    cards: Schema.Attribute.Component<
+    content: Schema.Attribute.Component<
       'workspace.workspace-item-component',
       true
     >;

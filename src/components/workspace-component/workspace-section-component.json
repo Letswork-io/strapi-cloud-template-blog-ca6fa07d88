@@ -18,7 +18,7 @@
       "type": "richtext",
       "required": false
     },
-    "cards": {
+    "content": {
       "type": "component",
       "repeatable": true,
       "component": "workspace.workspace-item-component"
