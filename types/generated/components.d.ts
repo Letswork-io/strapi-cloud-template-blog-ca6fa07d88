@@ -75,6 +75,7 @@ export interface WorkspaceComponentWorkspaceSectionComponent
       'workspace.workspace-item-component',
       true
     >;
+    ctaAction: Schema.Attribute.String;
     ctaLink: Schema.Attribute.String;
     ctaText: Schema.Attribute.String;
     description: Schema.Attribute.RichText;

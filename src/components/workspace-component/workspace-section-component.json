@@ -30,6 +30,10 @@
     "ctaLink": {
       "type": "string",
       "required": false
+    },
+    "ctaAction": {
+      "type": "string",
+      "required": false
     }
   }
 }
