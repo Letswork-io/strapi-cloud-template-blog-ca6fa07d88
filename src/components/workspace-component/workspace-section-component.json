@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_workspace_section_component",
+  "info": {
+    "displayName": "Workspace Item",
+    "description": "Whole workspace item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+
+    "bg_color": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workspace.workspace-item-component"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": false
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
