@@ -1,9 +1,11 @@
 {
+  "kind": "collectionType",
   "collectionName": "pages",
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page"
+    "displayName": "Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,10 +19,16 @@
       "type": "string",
       "required": true
     },
-    "section_workspace": {
-      "type": "component",
-      "repeatable": false,
-      "component": "workspace-component.workspace-section-component"
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "workspace-component.workspace-section-component",
+        "workspace-component.member-listing",
+        "workspace-component.global-spaces-carousel",
+        "workspace-component.fa-qs",
+        "workspace-component.credits-workspace-item",
+        "shared.banner-section"
+      ]
     }
   }
 }
