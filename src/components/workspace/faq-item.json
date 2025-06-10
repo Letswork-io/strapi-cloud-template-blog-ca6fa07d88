@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_workspace_faq_items",
+  "info": {
+    "displayName": "FAQ Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

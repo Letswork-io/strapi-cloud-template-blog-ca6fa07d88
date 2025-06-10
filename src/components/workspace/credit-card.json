@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_workspace_credit_cards",
+  "info": {
+    "displayName": "Credit Card Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "planKey": {
+      "type": "enumeration",
+      "enum": [
+        "CreditPlan25",
+        "CreditPlan50",
+        "CreditPlan100"
+      ]
+    },
+    "listCount": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

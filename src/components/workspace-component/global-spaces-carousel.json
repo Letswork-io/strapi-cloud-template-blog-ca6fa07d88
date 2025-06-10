@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_workspace_component_global_spaces_carousels",
+  "info": {
+    "displayName": "Global Spaces Carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "buttonAction": {
+      "type": "enumeration",
+      "enum": [
+        "ACTION",
+        "LINK"
+      ]
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workspace.spaces-card-item"
+    }
+  }
+}

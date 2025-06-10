@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_shared_banner_sections",
+  "info": {
+    "displayName": "Banner Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonType": {
+      "type": "enumeration",
+      "enum": [
+        "ACTION",
+        "LINK"
+      ]
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "anchorText": {
+      "type": "string"
+    },
+    "anchorLink": {
+      "type": "string"
+    },
+    "alignItems": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_workspace_component_member_listings",
+  "info": {
+    "displayName": "Member Listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workspace.member-card-item"
+    }
+  }
+}

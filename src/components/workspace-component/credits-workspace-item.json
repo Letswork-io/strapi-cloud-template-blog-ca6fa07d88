@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_workspace_component_credits_workspace_items",
+  "info": {
+    "displayName": "Credits Workspace",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "buttonType": {
+      "type": "enumeration",
+      "enum": [
+        "ACTION",
+        "LINK"
+      ]
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workspace.credit-card"
+    }
+  }
+}

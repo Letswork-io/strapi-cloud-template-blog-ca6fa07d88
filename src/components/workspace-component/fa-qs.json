@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_workspace_component_fa_qs",
+  "info": {
+    "displayName": "FAQs"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "displayName": "FAQ Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "workspace.faq-item"
+    }
+  }
+}

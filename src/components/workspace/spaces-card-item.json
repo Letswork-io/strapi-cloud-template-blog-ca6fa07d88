@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_workspace_spaces_card_items",
+  "info": {
+    "displayName": "Spaces Card Item"
+  },
+  "options": {},
+  "attributes": {
+    "buttonType": {
+      "type": "enumeration",
+      "enum": [
+        "SINGLE",
+        "SEPARATE"
+      ]
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    }
+  }
+}

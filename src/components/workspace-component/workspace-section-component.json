@@ -1,7 +1,7 @@
 {
   "collectionName": "components_workspace_section_component",
   "info": {
-    "displayName": "Workspace Item",
+    "displayName": "Workspace",
     "description": "Whole workspace item"
   },
   "attributes": {
@@ -9,7 +9,6 @@
       "type": "string",
       "required": true
     },
-
     "bg_color": {
       "type": "string",
       "required": false
@@ -32,8 +31,11 @@
       "required": false
     },
     "ctaAction": {
-      "type": "string",
-      "required": false
+      "type": "enumeration",
+      "enum": [
+        "LINK",
+        "ACTION"
+      ]
     }
   }
 }

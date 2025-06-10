@@ -502,6 +502,44 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiCreditCredit extends Struct.CollectionTypeSchema {
+  collectionName: 'credits';
+  info: {
+    description: '';
+    displayName: 'Credit';
+    pluralName: 'credits';
+    singularName: 'credit';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::credit.credit'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    sections: Schema.Attribute.DynamicZone<
+      [
+        'shared.banner-section',
+        'workspace-component.credits-workspace-item',
+        'workspace-component.member-listing',
+        'workspace-component.global-spaces-carousel',
+        'workspace-component.fa-qs',
+      ]
+    >;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -1112,6 +1150,7 @@ declare module '@strapi/strapi' {
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
+      'api::credit.credit': ApiCreditCredit;
       'api::global.global': ApiGlobalGlobal;
       'api::page.page': ApiPagePage;
       'api::workspace-service.workspace-service': ApiWorkspaceServiceWorkspaceService;
