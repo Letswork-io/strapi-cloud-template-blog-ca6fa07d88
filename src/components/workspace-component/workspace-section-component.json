@@ -36,6 +36,9 @@
         "LINK",
         "ACTION"
       ]
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

@@ -97,6 +97,7 @@ export interface WorkspaceComponentCreditsWorkspaceItem
     buttonType: Schema.Attribute.Enumeration<['ACTION', 'LINK']>;
     content: Schema.Attribute.Component<'workspace.credit-card', true>;
     description: Schema.Attribute.Blocks;
+    slug: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -104,10 +105,12 @@ export interface WorkspaceComponentCreditsWorkspaceItem
 export interface WorkspaceComponentFaQs extends Struct.ComponentSchema {
   collectionName: 'components_workspace_component_fa_qs';
   info: {
+    description: '';
     displayName: 'FAQs';
   };
   attributes: {
     Item: Schema.Attribute.Component<'workspace.faq-item', true>;
+    slug: Schema.Attribute.String;
   };
 }
 
@@ -124,6 +127,7 @@ export interface WorkspaceComponentGlobalSpacesCarousel
     buttonText: Schema.Attribute.String;
     content: Schema.Attribute.Component<'workspace.spaces-card-item', true>;
     description: Schema.Attribute.Blocks;
+    slug: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -138,6 +142,7 @@ export interface WorkspaceComponentMemberListing
   attributes: {
     content: Schema.Attribute.Component<'workspace.member-card-item', true>;
     description: Schema.Attribute.Blocks;
+    slug: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -159,6 +164,7 @@ export interface WorkspaceComponentWorkspaceSectionComponent
     ctaLink: Schema.Attribute.String;
     ctaText: Schema.Attribute.String;
     description: Schema.Attribute.RichText;
+    slug: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
